@@ -98,7 +98,7 @@ tags: []
     sudo apt-get install build-essential  
     sudo apt-get install libgtk2.0-dev
 #####step3.
-编译共享内库
+编译成共享库
 
     gcc -shared -o libsublime-imfix.so sublime-imfix.c  `pkg-config --libs --cflags gtk+-2.0` -fPIC
 #####step4.
@@ -127,6 +127,6 @@ tags: []
 修改为
 
     Exec=bash -c 'LD_PRELOAD=/usr/lib/libsublime-imfix.so /usr/bin/sublime-text-2' --new-window
-    
+
 Ok如此即可，开始sublime无忧代码之旅  
 原文链接： [http://my.oschina.net/wugaoxing/blog/121281](http://my.oschina.net/wugaoxing/blog/121281)
