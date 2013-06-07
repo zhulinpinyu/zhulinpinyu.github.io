@@ -2,8 +2,8 @@
 layout: post
 title: "sublime text 2使用简介"
 description: ""
-category: 
-tags: []
+category: ubuntu
+tags: [linux]
 ---
 {% include JB/setup %}
 
