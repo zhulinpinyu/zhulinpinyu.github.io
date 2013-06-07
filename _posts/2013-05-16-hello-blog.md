@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "Hello Blog"
+title: "Hello Blog之jekyll使用简介"
 description: ""
 category: 
 tags: []
 ---
 {% include JB/setup %}
 
-    这是我的个人博客
+####启动本地 jekyll server
+    jekyll serve
+####创建POST
+    rake post title="post name"
+    
+其他详情参见[http://jekyllbootstrap.com/usage/jekyll-quick-start.html](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
