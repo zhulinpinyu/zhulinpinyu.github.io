@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 竹林品雨的个人博客
-tagline: 
+tagline: Just Do IT 只干IT
 ---
 {% include JB/setup %}
 

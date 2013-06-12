@@ -1,9 +1,14 @@
 <div class="page-header">
   <div class="row-fluid">
     <div class="span9">
-      <h1 style="
-    line-height: 72px;
-">{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+      <h1 style="line-height: 42px;">
+        {{ page.title }} 
+        {% if page.tagline %}
+            <br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <small>------{{ page.tagline }}</small>
+        {% endif %}
+      </h1>
     </div>
     <div class="span3">
       <a href="https://github.com/zhulinpinyu" title="GitHub">
