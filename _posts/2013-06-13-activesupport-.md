@@ -12,10 +12,10 @@ tags: []
     require 'active_support/all'
   
 ###对ruby core的扩展数组Array
-![Array](https://www.evernote.com/shard/s241/res/c46e4ef1-2f96-4825-a232-f1d3ea162eec/Array.png)    
+![Array](/article_images/Array.png)    
 
 ###日期时间处理相关 
-![date](https://www.evernote.com/shard/s241/res/22f19804-93ec-4474-82b8-d42898b9f742/date.png)
+![date](/article_images/date.png)
 ###对hash的扩展
      require "active_support/all"
      opts={name: "mlx", age:23}
@@ -66,4 +66,4 @@ tags: []
     puts 1.odd? //true
     puts 2.even? //true
 ###Other
-![Other](https://www.evernote.com/shard/s241/res/ac3f1129-f9b9-4031-8564-493701e9329a/other.png)
+![Other](/article_images/other.png)

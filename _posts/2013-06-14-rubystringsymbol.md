@@ -27,7 +27,7 @@ tags: []
 
     object_id 函数返回的是对象的身份标识。如果两个对象有相同的 object_id， 那么他们就是相同的（指向同一个内存地址）。 可以看出，当符号在使用过一次后，任何相同字符的符号都会在内存中指向同一个对象地址。 也就是说任何相同字符的符号的object_id 都是相同的。
 
-![str](https://www.evernote.com/shard/s241/res/7a8e11eb-0ecb-4800-8fe6-50b76799d8e4/str_syb.png)
+![str](/article_images/str_syb.png)
 
     puts "a".object_id     //69810560
     puts "a".object_id     //69738330
