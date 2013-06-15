@@ -13,6 +13,7 @@ tags: []
 首先[ruby环境搭建](https://www.evernote.com/shard/s241/sh/f43d6b5f-c385-46e2-aa50-fb415e1d20b1/f12e8e152d9a871223d1c620b4897da8)
 
 ###Start
+    sudo apt-get install imagemagick
     gem install rails -v 3.2.13
     gem install spree
     rails _3.2.13_ new my_store --skip-bundle
