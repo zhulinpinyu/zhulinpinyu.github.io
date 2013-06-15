@@ -2,8 +2,8 @@
 layout: post
 title: "activesupport 学习笔记"
 description: ""
-category: 
-tags: []
+category: Ruby
+tags: [Ruby]
 ---
 {% include JB/setup %}
 

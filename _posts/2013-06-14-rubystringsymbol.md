@@ -2,8 +2,8 @@
 layout: post
 title: "ruby中String和Symbol的区别"
 description: ""
-category: 
-tags: []
+category: Ruby
+tags: [Ruby]
 ---
 {% include JB/setup %}
 

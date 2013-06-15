@@ -2,8 +2,8 @@
 layout: post
 title: "简易方式program install on Ubuntu"
 description: ""
-category: 
-tags: []
+category: ubuntu
+tags: [linux]
 ---
 {% include JB/setup %}
 
