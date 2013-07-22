@@ -19,3 +19,12 @@ tags: [linux]
     $ sudo add-apt-repository ppa:chris-lea/node.js
     $ sudo apt-get -y update
     $ sudo apt-get -y install nodejs
+####MongoDB install
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+    
+`echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list`
+    
+    sudo apt-get update
+    sudo apt-get install mongodb-10gen
+
+More Info 参见[http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
