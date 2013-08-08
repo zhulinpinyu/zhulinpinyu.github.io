@@ -111,3 +111,5 @@ ___
       对于Rails应用，也可以将Gemfile的第一行改写为source 'http://ruby.taobao.org/'，然后执行bundle install进行更新
 
 ###END 服务器环境搭建完成
+
+[Deploy rails Project to VPS 实战部署篇](/ubuntu/2013/08/08/deploy-rails-project-to-vps-/)
