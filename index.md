@@ -12,10 +12,3 @@ tagline: Just Do IT
     <li><h5><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h5></li>
   {% endfor %}
 </ul>
-
-
----
-layout: page
-title: 竹林品雨的个人博客
-tagline: Just Do IT
----
