@@ -14,4 +14,8 @@ tagline: Just Do IT
 </ul>
 
 
-
+---
+layout: page
+title: 竹林品雨的个人博客
+tagline: Just Do IT
+---
