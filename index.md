@@ -5,7 +5,7 @@ tagline: Just Do IT
 ---
 {% include JB/setup %}
 
-##最新博客
+###最新博客
 
 <ul class="posts">
   {% for post in site.posts limit:8 %}
