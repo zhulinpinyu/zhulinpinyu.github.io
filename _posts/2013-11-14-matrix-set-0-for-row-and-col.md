@@ -28,47 +28,48 @@ tags: [java]
     1   2   3   4   5   6
 
 ####算法实现
-
-    private void matrixConversion(int[][] matrix){
-        List<int[]> zeroPosList = new ArrayList<int[]>();
-        saveZeroPos(matrix, zeroPosList);
-        setZero(matrix, zeroPosList);
-    }
-
+{% highlight java%}
+private void matrixConversion(int[][] matrix){
+    List<int[]> zeroPosList = new ArrayList<int[]>();
+    saveZeroPos(matrix, zeroPosList);
+    setZero(matrix, zeroPosList);
+}
+{% endhighlight %}
 `保存零值位置`
-
-    private void saveZeroPos(int[][] matrix, List<int[]> zeroPosList) {
-        int M = matrix.length;
-        int N = matrix[0].length;
-        for(int i=0; i<M; i++){
-            for(int j=0; j<N; j++){
-                if(isZero(matrix, i,j)){
-                    int[] pos = {i, j};
-                    zeroPosList.add(pos);
-                }
+{% highlight java%}
+private void saveZeroPos(int[][] matrix, List<int[]> zeroPosList) {
+    int M = matrix.length;
+    int N = matrix[0].length;
+    for(int i=0; i<M; i++){
+        for(int j=0; j<N; j++){
+            if(isZero(matrix, i,j)){
+                int[] pos = {i, j};
+                zeroPosList.add(pos);
             }
         }
     }
-    
+}
+{% endhighlight %}    
 `判断零值`
-
-    private static boolean isZero(int[][] matrix,int i, int j) {
-        return matrix[i][j] == 0;
-    }
-
+{% highlight java %}
+private static boolean isZero(int[][] matrix,int i, int j) {
+    return matrix[i][j] == 0;
+}
+{% endhighlight %}
 `置零`
-
-    private static void setZero(int[][] matrix, List<int[]> zeroPos) {
-        for(int[] pos : zeroPos){
-            int i = pos[0];
-            int j = pos[1];
-            //水平置零
-            for(int k=0; k<matrix[0].length; k++){
-                matrix[i][k] = 0;
-            }
-            //垂直置零
-            for(int k=0; k<matrix.length; k++){
-                matrix[k][j] = 0;
-            }
+{% highlight java %}
+private static void setZero(int[][] matrix, List<int[]> zeroPos) {
+    for(int[] pos : zeroPos){
+        int i = pos[0];
+        int j = pos[1];
+        //水平置零
+        for(int k=0; k<matrix[0].length; k++){
+            matrix[i][k] = 0;
+        }
+        //垂直置零
+        for(int k=0; k<matrix.length; k++){
+            matrix[k][j] = 0;
         }
     }
+}
+{% endhighlight %}

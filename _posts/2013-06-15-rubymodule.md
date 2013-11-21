@@ -10,16 +10,16 @@ tags: [Ruby]
 ####Modules
 
 image_utils.rb
-
-    module ImageUtils
-        def preview
-            puts "preview"
-        end
-        def transfer(url)
-            puts "transfer #{url}" 
-        end
+{% highlight ruby %}
+module ImageUtils
+    def preview
+        puts "preview"
     end
-
+    def transfer(url)
+        puts "transfer #{url}" 
+    end
+end
+{% endhighlight %}
 ___
 
 image.rb (关键字 `include`)
