@@ -14,3 +14,17 @@ tagline: Just Do IT
   <h5><a href="/archive.html">更多博客......</a></h5>
 </ul>
 
+<!--
+{% for p in site.posts limit:8 %}
+<div class="article">
+    <h4 class="article-title"><a href="{{ site.url }}{{ p.url }}">{{p.title}}</a></h4>
+
+    {{ p.excerpt }}
+    <div class="article-status">
+        <div class="article-date">{{ p.date | date: "%-d %B %Y" }}</div>
+        <a class="article-readmore" href="{{ site.url }}{{ p.url }}">Read More Â» </a>
+    </div>
+</div>
+{% endfor %}
+
+-->
