@@ -82,7 +82,7 @@ ___
 #####以下在新建的用户deployer下完成
     
     #在用户deployer下安装rbenv
-      curl https://raw.github.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
+      curl https://raw.githubusercontent.com/fesplugas/rbenv-installer/master/bin/rbenv-installer | bash
     #添加下面代码到.bashrc
     _______________________________________________
     export RBENV_ROOT="${HOME}/.rbenv"
