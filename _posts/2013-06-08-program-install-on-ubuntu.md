@@ -26,5 +26,7 @@ tags: [linux]
     
     sudo apt-get update
     sudo apt-get install mongodb-10gen
+    
+   > or download from http://downloads-distro.mongodb.org/repo/ubuntu-upstart/dists/dist/10gen/binary-amd64/
 
 More Info 参见[http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
