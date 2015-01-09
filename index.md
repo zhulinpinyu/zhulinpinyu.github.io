@@ -5,36 +5,36 @@ tagline: Just Do IT
 ---
 {% include JB/setup %}
 
-<!-- <ul class="posts">
-  {% for post in site.posts limit:8 %}
-    <li><h5><span>{{ post.date | date_to_string }}</span> &nbsp;▸▹ <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h5></li>
-  {% endfor %}
-  <h5><a href="/archive.html">更多博客......</a></h5>
-</ul> -->
-
+<div class="span11">
 <ul class="posts">
   {% for post in site.posts limit:8 %}
-    <article style="margin: 40px 0 10px 0;">
-      <h2>
-        <a href="{{ BASE_PATH }}{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h2>
+    <article style="margin: 20px 0 20px 0;">
       <section>
-          <ul class="inline">
-            <li>{{ post.date | date_to_string }}</li>
-            <li>{{ post.category }}</li>
-            <li>{{ post.tag }}</li>
+          <ul style="list-style-type: none;">
+            <li>
+              <a href="{{ BASE_PATH }}{{ post.url }}" style="list-style-type: none;font-family: monospace;font-size: xx-large;">
+                {{ post.title }}
+              </a>
+              <span class="pull-right">{{ post.date | date: "%Y-%m-%d" }}</span>
+            </li>
           </ul>
       </section>
-      <div class="content">
-        {{post.content}}
-      </div>
     </article>
   {% endfor %}
-  <h5><a href="/archive.html">更多博客......</a></h5>
+  <article style="margin: 50px 0 10px 0;">
+      <section>
+          <ul style="list-style-type: none;">
+            <li>
+              <a href="/archive.html" style="list-style-type: none;font-family: FrescoSansPlusPro-Normal monospace;font-size: xx-large;">
+                更多博客......
+              </a>
+            </li>
+          </ul>
+      </section>
+    </article>
+  <h5></h5>
 </ul>
-
+</div>
 <!--
 {% for p in site.posts limit:8 %}
 <div class="article">
