@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "rails 4.1 spring Rspec Guard 配置"
+title: "[译文]rails 4.1 spring Rspec Guard 配置"
 description: ""
 category: 译文
-tags: [译文,Ruby,Rails,Rspec]
+tags: [译文,ruby,rails,rspec]
 ---
 {% include JB/setup %}
 

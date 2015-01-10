@@ -2,8 +2,8 @@
 layout: post
 title: "RVM install for Multi User"
 description: ""
-category: Ruby
-tags: [Ruby]
+category: ruby
+tags: [ruby]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "Deploy rails Project to VPS 实战部署篇"
 description: ""
 category: Ubuntu
-tags: [Deploy]
+tags: [deploy,rails]
 ---
 {% include JB/setup %}
 

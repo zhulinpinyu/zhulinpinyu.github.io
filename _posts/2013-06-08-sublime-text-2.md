@@ -3,7 +3,7 @@ layout: post
 title: "sublime text 2使用简介"
 description: ""
 category: ubuntu
-tags: [linux]
+tags: [linux,sublime-text]
 ---
 {% include JB/setup %}
 

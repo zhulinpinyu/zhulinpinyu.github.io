@@ -2,8 +2,8 @@
 layout: post
 title: "ruby中的module"
 description: ""
-category: Ruby
-tags: [Ruby]
+category: ruby
+tags: [ruby]
 ---
 {% include JB/setup %}
 

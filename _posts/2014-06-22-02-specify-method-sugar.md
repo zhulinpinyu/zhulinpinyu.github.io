@@ -3,7 +3,7 @@ layout: post
 title: "0.2 特定方法的语法糖"
 description: ""
 category: ruby
-tags: [Ruby,Rubymonk]
+tags: [ruby,rubymonk]
 ---
 {% include JB/setup %}
 

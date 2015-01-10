@@ -3,7 +3,7 @@ layout: post
 title: "7. Lambdas and Blocks"
 description: ""
 category: ruby
-tags: [Ruby,Rubymonk]
+tags: [ruby,rubymonk]
 ---
 {% include JB/setup %}
 

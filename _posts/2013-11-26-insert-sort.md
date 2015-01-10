@@ -3,7 +3,7 @@ layout: post
 title: "直接插入排序（Java实现）"
 description: ""
 category: 算法
-tags: [java 算法]
+tags: [java,算法]
 ---
 {% include JB/setup %}
 

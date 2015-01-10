@@ -2,8 +2,8 @@
 layout: post
 title: "spree install guides"
 description: ""
-category: Rails
-tags: [Rails]
+category: rails
+tags: [rails]
 ---
 {% include JB/setup %}
 

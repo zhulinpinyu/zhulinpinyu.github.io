@@ -2,8 +2,8 @@
 layout: post
 title: "CSS3画红心"
 description: ""
-category: CSS3
-tags: [CSS3]
+category: css3
+tags: [css3]
 ---
 {% include JB/setup %}
 

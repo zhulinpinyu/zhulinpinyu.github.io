@@ -2,8 +2,8 @@
 layout: post
 title: "mongoDB 学习笔记"
 description: ""
-category: mongoDB
-tags: [Database]
+category: mongodb
+tags: [mongodb,database]
 ---
 {% include JB/setup %}
 

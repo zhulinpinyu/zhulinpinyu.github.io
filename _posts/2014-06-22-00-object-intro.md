@@ -3,7 +3,7 @@ layout: post
 title: "0.0 对象简介"
 description: ""
 category: ruby
-tags: [Ruby,Rubymonk]
+tags: [ruby,rubymonk]
 ---
 {% include JB/setup %}
 

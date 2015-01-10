@@ -3,7 +3,7 @@ layout: post
 title: "1. String 基本使用"
 description: ""
 category: ruby
-tags: [Ruby,Rubymonk]
+tags: [ruby,rubymonk]
 ---
 {% include JB/setup %}
 

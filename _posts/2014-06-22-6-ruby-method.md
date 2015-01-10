@@ -3,7 +3,7 @@ layout: post
 title: "6. Ruby method"
 description: ""
 category: ruby
-tags: [Ruby,Rubymonk]
+tags: [ruby,rubymonk]
 ---
 {% include JB/setup %}
 

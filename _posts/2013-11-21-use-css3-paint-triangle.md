@@ -2,8 +2,8 @@
 layout: post
 title: "使用CSS3画三角形"
 description: ""
-category: CSS3
-tags: [CSS3]
+category: css3
+tags: [css3]
 ---
 {% include JB/setup %}
 

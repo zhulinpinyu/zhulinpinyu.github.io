@@ -2,8 +2,8 @@
 layout: post
 title: "Ubuntu下Ruby on Rails开发环境的安装"
 description: ""
-category: ubuntu
-tags: [linux, Ruby, Rails]
+category: rails
+tags: [linux, ruby, rails]
 ---
 {% include JB/setup %}
 
