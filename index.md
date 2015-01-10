@@ -7,7 +7,7 @@ tagline: Just Do IT
 
 <div class="span11">
 <ul class="posts">
-  {% for post in site.posts limit:8 %}
+  {% for post in site.posts limit:10 %}
     <article style="margin: 20px 0 20px 0;">
       <section>
           <ul style="list-style-type: none;">
@@ -21,11 +21,11 @@ tagline: Just Do IT
       </section>
     </article>
   {% endfor %}
-  <article style="margin: 50px 0 10px 0;">
+  <article style="margin: 30px 0 10px 0;">
       <section>
           <ul style="list-style-type: none;">
             <li>
-              <a href="/archive.html" style="list-style-type: none;font-family: FrescoSansPlusPro-Normal monospace;font-size: xx-large;">
+              <a href="/archive.html" style="list-style-type: none;font-family: FrescoSansPlusPro-Normal monospace;font-size: x-large;">
                 更多博客......
               </a>
             </li>
