@@ -12,7 +12,7 @@ tagline: Just Do IT
       <section>
           <ul style="list-style-type: none;">
             <li>
-              <a href="{{ BASE_PATH }}{{ post.url }}" style="list-style-type: none;font-family: monospace;font-size: 25px;">
+              <a href="{{ BASE_PATH }}{{ post.url }}" style="list-style-type: none;font-family: monospace;font-size: 23px;">
                 {{ post.title }}
               </a>
               <span class="pull-right">{{ post.date | date: "%Y-%m-%d" }}</span>
