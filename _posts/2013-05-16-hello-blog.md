@@ -9,6 +9,8 @@ tags: []
 
 ####启动本地 jekyll server
     jekyll serve
+
+    jekyll serve -w  #编辑文件自动刷新
 ####创建POST
     rake post title="post name"
     
