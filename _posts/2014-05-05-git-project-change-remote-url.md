@@ -28,3 +28,6 @@ $ git remote -v
 > Verify new remote URL    
 > origin  https://github.com/user/repo2.git (fetch)    
 > origin  https://github.com/user/repo2.git (push)    
+
+REF::
+[https://help.github.com/articles/changing-a-remote-s-url/](https://help.github.com/articles/changing-a-remote-s-url/)
