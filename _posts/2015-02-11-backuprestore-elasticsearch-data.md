@@ -7,8 +7,6 @@ tags: []
 ---
 {% include JB/setup %}
 
-###Backup/Restore elasticsearch data 
-
 ###Ubuntu install elasticsearch
 
 `!Warning: You Must` [install Java](http://zhulinpinyu.github.io/ubuntu/2013/06/08/program-install-on-ubuntu/)
