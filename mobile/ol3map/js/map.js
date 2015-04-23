@@ -5,7 +5,7 @@ var baseLayer = new ol.layer.Tile({
 var countries = new ol.layer.Vector({
   source: new ol.source.GeoJSON({
     projection: 'EPSG:3857',
-    url: '../data/shanghai.json'
+    url: '../ol3map/shenzhen.json'
   })
 });
 
@@ -13,7 +13,7 @@ var center = ol.proj.transform([114.01,22.51],'EPSG:4326','EPSG:3857');
 //-122.0312186,37.33233141
 var view = new ol.View({
   center: center,
-  zoom: 16
+  zoom: 14
 });
 
 var map = new ol.Map({
@@ -26,10 +26,11 @@ var map = new ol.Map({
 function onMouseMove(event){
   var coordinate = event.coordinate;
   var pixel = map.getPixelFromCoordinate(coordinate);
-  var name = $('#name')[0];
-  name.innerHTML = '';
+  var degrees = ol.proj.transform(coordinate, 'EPSG:3857','EPSG:4326');
+  var hdms = ol.coordinate.toStringHDMS(degrees)
   map.forEachFeatureAtPixel(pixel, function(feature){
-    name.innerHTML += feature.get('name') + '<br>';
+    var value = feature.get('name')+"("+hdms+")"
+    document.location = "ol3map://alert/"+value;
   });
 }
 map.on('click', onMouseMove);
@@ -38,4 +39,8 @@ map.on('click', onMouseMove);
 function setCenter(lat,lon){
   var location = ol.proj.transform([lon,lat],'EPSG:4326','EPSG:3857');
   map.getView().setCenter(location);
+}
+
+function orientation(){
+  document.location = "ol3map://center/"
 }
