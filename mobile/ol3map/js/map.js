@@ -9,7 +9,7 @@ var countries = new ol.layer.Vector({
   })
 });
 
-var center = ol.proj.transform([114.01,22.51],'EPSG:4326','EPSG:3857');
+var center = ol.proj.transform([114.02,22.54],'EPSG:4326','EPSG:3857');
 //-122.0312186,37.33233141
 var view = new ol.View({
   center: center,
@@ -22,6 +22,14 @@ var map = new ol.Map({
   view: view,
   controls: []
 });
+
+
+function marker(location){
+  return new ol.Overlay({
+    position: location,
+    element: $('<span class="glyphicon glyphicon-map-marker" aria-hidden="true" style="color: darkviolet; font-size: 21px;"></span>')
+  });
+}
 
 function onMouseMove(event){
   var coordinate = event.coordinate;
@@ -39,6 +47,7 @@ map.on('click', onMouseMove);
 function setCenter(lat,lon){
   var location = ol.proj.transform([lon,lat],'EPSG:4326','EPSG:3857');
   map.getView().setCenter(location);
+  map.addOverlay(marker(location));
 }
 
 function orientation(){
