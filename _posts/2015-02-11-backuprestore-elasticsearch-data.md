@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Backup/Restore elasticsearch data"
-description: ""
+description: "Backup/Restore elasticsearch data"
 category: 
 tags: []
 ---

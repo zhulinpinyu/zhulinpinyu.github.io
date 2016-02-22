@@ -8,18 +8,19 @@ tagline: Just Do IT
 <div class="span11">
 <ul class="posts">
   {% for post in site.posts limit:10 %}
-    <article style="margin: 20px 0 20px 0;">
-      <section>
-          <ul style="list-style-type: none;">
-            <li>
-              <a href="{{ BASE_PATH }}{{ post.url }}" style="list-style-type: none;font-family: monospace;font-size: 23px;">
-                {{ post.title }}
-              </a>
-              <span class="pull-right">{{ post.date | date: "%Y-%m-%d" }}</span>
-            </li>
-          </ul>
-      </section>
-    </article>
+    <div class="post py3">
+          <p class="post-meta">{{ post.date | date_to_long_string }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h3 class="h2 post-title">{{ post.title }}</h3>
+          </a>
+          <p class="post-summary">
+            {% if post.description %}
+              {{ post.description }}
+            {% else %}
+              {{ post.excerpt }}
+            {% endif %}
+          </p>
+        </div>
   {% endfor %}
   <article style="margin: 30px 0 10px 0;">
       <section>
