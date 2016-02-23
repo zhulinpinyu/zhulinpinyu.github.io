@@ -2,7 +2,8 @@
 layout: post
 title: "Backup/Restore elasticsearch data"
 subtitle: "Backup/Restore elasticsearch data"
-date: 2015-02-11
+date: 2015-02-11 12:00:00
+author: "zhulinpinyu"
 tags:
     - elasticsearch
 ---
