@@ -5,7 +5,7 @@ description: ""
 category: 软件设计
 tags: [SOLID]
 ---
-{% include JB/setup %}
+
 
 <style type="text/css">
   tr,td {

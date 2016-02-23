@@ -5,7 +5,7 @@ description: ""
 category: Cracking the coding interview
 tags: [java]
 ---
-{% include JB/setup %}
+
 
 `注：变位词(anagrams)指的是组成两个单词的字符相同，但位置不同的单词。比如说， abbcd和abcdb就是一对变位词。`
 

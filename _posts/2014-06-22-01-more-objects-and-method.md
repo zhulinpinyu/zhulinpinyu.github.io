@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 
 > Ruby objects are happy to tell you what methods they provide. You simply call the `methods` method on them.

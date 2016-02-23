@@ -5,7 +5,7 @@ description: ""
 category: javascript权威指南(第六版)学习笔记
 tags: [javascript]
 ---
-{% include JB/setup %}
+
 
 
 - javascript中最重要的类型是对象（理解javascript的对象）

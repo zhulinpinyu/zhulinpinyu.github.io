@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux,osx]
 ---
-{% include JB/setup %}
+
 
 
     chown [-R] 账号名称 文件或目录  

@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 ###5. Class and 面向对象的ruby
 

@@ -5,7 +5,7 @@ description: ""
 category: javascript
 tags: [javascript]
 ---
-{% include JB/setup %}
+
 
 ######EMACScript 5中Array对象新增的方法。
 

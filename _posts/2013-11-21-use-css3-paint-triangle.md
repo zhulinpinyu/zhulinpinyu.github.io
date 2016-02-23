@@ -5,7 +5,7 @@ description: ""
 category: css3
 tags: [css3]
 ---
-{% include JB/setup %}
+
 
 <style>
   #triangle-up{

@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 ####2.1.Boolean Expressions（布尔运算）
 

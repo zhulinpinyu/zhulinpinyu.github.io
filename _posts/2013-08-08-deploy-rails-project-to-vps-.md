@@ -5,7 +5,7 @@ description: ""
 category: Ubuntu
 tags: [deploy,rails]
 ---
-{% include JB/setup %}
+
 
 
 注：数据库，git仓库位于服务器A; web server，app server位于服务器B

@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 >2+3 与 2.+(3)  其实是一样的
 > +是数字对象的一个方法而已 

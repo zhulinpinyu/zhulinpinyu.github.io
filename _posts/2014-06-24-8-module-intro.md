@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 
 ###8. module intro

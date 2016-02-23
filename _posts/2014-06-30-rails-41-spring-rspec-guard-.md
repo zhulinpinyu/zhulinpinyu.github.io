@@ -5,7 +5,7 @@ description: ""
 category: 译文
 tags: [译文,ruby,rails,rspec]
 ---
-{% include JB/setup %}
+
 
 
 ###**[译文]** Rails 4.1 配置 Spring, Rspec 和 Guard

@@ -5,7 +5,7 @@ description: ""
 category: Ubuntu
 tags: [deploy,rails]
 ---
-{% include JB/setup %}
+
 
 #####Deploy Rails project to VPS 服务器环境搭建篇
     

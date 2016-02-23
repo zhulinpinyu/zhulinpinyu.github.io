@@ -5,7 +5,7 @@ description: ""
 category: javascript
 tags: [javascript]
 ---
-{% include JB/setup %}
+
 
 javascript IIFE 立即调用
 

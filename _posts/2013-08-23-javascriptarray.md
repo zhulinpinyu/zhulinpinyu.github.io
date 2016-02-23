@@ -5,7 +5,7 @@ description: ""
 category: javascript 
 tags: [javascript]
 ---
-{% include JB/setup %}
+
 
 ###### javascript中Array对象的方法
 

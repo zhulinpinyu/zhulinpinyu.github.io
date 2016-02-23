@@ -5,7 +5,7 @@ description: ""
 category: elasticsearch
 tags: [elasticsearch]
 ---
-{% include JB/setup %}
+
 
 
 ###安装IK插件 For Elasticsearch

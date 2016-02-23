@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby]
 ---
-{% include JB/setup %}
+
 
 ####Ruby中String对象与Symbol对象的区别
 

@@ -5,7 +5,7 @@ description: ""
 category: git
 tags: [git,github]
 ---
-{% include JB/setup %}
+
 
 ```
 $ git remote -v

@@ -1,28 +1,30 @@
 ---
 layout: post
 title: "Backup/Restore elasticsearch data"
-description: "Backup/Restore elasticsearch data"
-category: 
-tags: []
+subtitle: "Backup/Restore elasticsearch data"
+date: 2015-02-11
+tags:
+    - elasticsearch
 ---
-{% include JB/setup %}
 
-###Ubuntu install elasticsearch
+
+### Ubuntu install elasticsearch
 
 `!Warning: You Must` [install Java](http://zhulinpinyu.github.io/ubuntu/2013/06/08/program-install-on-ubuntu/)
 
-#####下载
+##### 下载
 > Download [elasticsearch-1.4.2.deb](https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.4.2.deb) 当前版本 1.4.2
 
-#####安装
+##### 安装
     sudo dpkg -i elasticsearch-1.4.2.deb
-#####设置
+##### 设置
     根据安装后提示设置开机启动等
 
 `Tips:` 以上方式安装会创建名称为`elasticsearch`的用户和用户组 `备份恢复会用到`
 
-###数据备份及恢复
-#####注册备份文件类型以及备份位置
+### 数据备份及恢复
+
+##### 注册备份文件类型以及备份位置
 
     $ curl -XPUT 'http://localhost:9200/_snapshot/myes_backup' -d '{
         "type": "fs",
@@ -39,12 +41,12 @@ tags: []
     chown -R elasticsearch:elasticsearch backups
     修改 backups 及其子文件，子文件夹 的用户用户组为elasticsearch
 
-#####执行备份---backup
+##### 执行备份---backup
 
     $ curl -XPUT "localhost:9200/_snapshot/myes_backup/snapshot_1?wait_for_completion=true"
 
 
-#####恢复备份---restore
+##### 恢复备份---restore
 
 
     $ curl -XPOST "localhost:9200/_snapshot/myes_backup/snapshot_1/_restore?wait_for_completion=true"

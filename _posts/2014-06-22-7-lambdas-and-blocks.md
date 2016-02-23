@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby,rubymonk]
 ---
-{% include JB/setup %}
+
 
 ###7.Lambdas and Blocks
 ####7.1 Lambdas in Ruby

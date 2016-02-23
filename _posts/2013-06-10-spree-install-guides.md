@@ -5,7 +5,7 @@ description: ""
 category: rails
 tags: [rails]
 ---
-{% include JB/setup %}
+
 
 ###[spree](https://github.com/zhulinpinyu/spree)安装指南
     

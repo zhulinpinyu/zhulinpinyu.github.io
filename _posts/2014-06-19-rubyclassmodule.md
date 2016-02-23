@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby]
 ---
-{% include JB/setup %}
+
 
 ```
 1. 模块不能实例化，类不能include

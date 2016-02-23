@@ -5,7 +5,6 @@ description: ""
 category: ubuntu
 tags: [linux]
 ---
-{% include JB/setup %}
 
 ####java install
     $ sudo add-apt-repository -y ppa:webupd8team/java

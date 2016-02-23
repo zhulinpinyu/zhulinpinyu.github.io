@@ -5,7 +5,7 @@ description: ""
 category: mongodb
 tags: [mongodb,database]
 ---
-{% include JB/setup %}
+
 
 
 ####**1.** 用全局命令`use`来切换数据库

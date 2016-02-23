@@ -5,7 +5,7 @@ description: ""
 category: rubymotion
 tags: [osx,rubymotion,rubymotion tips]
 ---
-{% include JB/setup %}
+
 
 
 

@@ -5,7 +5,7 @@ description: ""
 category: rails
 tags: [linux, ruby, rails]
 ---
-{% include JB/setup %}
+
 
 ####Ubuntu下Ruby on Rails开发环境的安装
 

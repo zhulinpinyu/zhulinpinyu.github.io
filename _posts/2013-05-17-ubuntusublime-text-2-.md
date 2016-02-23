@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux,sublime-text]
 ---
-{% include JB/setup %}
+
 
 感谢开源中国网友 [@Wuu](http://my.oschina.net/wugaoxing)
 原文链接 [http://my.oschina.net/wugaoxing/blog/121281](http://my.oschina.net/wugaoxing/blog/121281)

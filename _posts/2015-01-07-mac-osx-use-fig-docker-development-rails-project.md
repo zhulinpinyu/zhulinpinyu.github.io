@@ -5,7 +5,7 @@ description: ""
 category: docker
 tags: [docker,osx,fig,rails]
 ---
-{% include JB/setup %}
+
 
 
 ###安装Fig

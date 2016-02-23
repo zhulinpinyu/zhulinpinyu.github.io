@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux,osx,shell]
 ---
-{% include JB/setup %}
+
 
 1. 新建文件 后缀为`.sh`  例如： setup.sh
 2. 写入脚本命令。 例如 `ping www.baidu.com`

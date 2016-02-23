@@ -5,7 +5,7 @@ description: ""
 category: Cracking the coding interview
 tags: [java]
 ---
-{% include JB/setup %}
+
 
 参考链接：[http://hawstein.com/posts/1.6.html](http://hawstein.com/posts/1.6.html)
 ####一张图像表示成NxN的矩阵，图像中每个像素是4个字节，写一个函数把图像旋转90度。 你能原地进行操作吗？(即不开辟额外的存储空间)

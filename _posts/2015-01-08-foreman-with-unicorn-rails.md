@@ -5,7 +5,7 @@ description: ""
 category: rails
 tags: [rails,docker,unicorn,foreman]
 ---
-{% include JB/setup %}
+
 
 
 ###Step 1 安装`foreman`和`unicorn`

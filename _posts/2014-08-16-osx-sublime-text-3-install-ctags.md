@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux,sublime-text,ctag]
 ---
-{% include JB/setup %}
+
 
 
 ###OSX Sublime text 3 install Ctags

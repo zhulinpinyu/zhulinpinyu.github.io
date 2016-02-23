@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux]
 ---
-{% include JB/setup %}
+
 
 使用dpkg -i安装deb包
 

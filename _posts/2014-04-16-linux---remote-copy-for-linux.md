@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux]
 ---
-{% include JB/setup %}
+
 
     scp -r deploy@172.18.6.80:/opt/* ./
 

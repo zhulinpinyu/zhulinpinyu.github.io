@@ -5,7 +5,7 @@ description: ""
 category: ruby
 tags: [ruby]
 ---
-{% include JB/setup %}
+
 
 RVM install for Multi-User
 

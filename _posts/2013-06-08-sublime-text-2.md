@@ -5,7 +5,7 @@ description: ""
 category: ubuntu
 tags: [linux,sublime-text]
 ---
-{% include JB/setup %}
+
 
 #####Ubuntu install sublime
 

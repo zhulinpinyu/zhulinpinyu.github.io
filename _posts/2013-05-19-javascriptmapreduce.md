@@ -5,7 +5,7 @@ description: ""
 category: 算法
 tags: [javascript, 算法]
 ---
-{% include JB/setup %}
+
 MapReduce理解  
 感谢[地瓜哥](http://www.diguage.com/).    
 原文链接：[http://www.diguage.com/archives/75.html](http://www.diguage.com/archives/75.html)
