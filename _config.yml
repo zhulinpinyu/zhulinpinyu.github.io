@@ -5,7 +5,7 @@ header-img: img/bg-03.jpeg
 email: huanyizizhen@gmail.com
 description: ""
 keyword: ""
-url: "http://zhulinpinyu.github.io/"              # your host, for absolute URL
+url: "http://zhulinpinyu.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
