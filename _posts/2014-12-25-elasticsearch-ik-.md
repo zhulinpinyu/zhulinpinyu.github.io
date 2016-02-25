@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Elasticsearch 配置IK 分词器"
-description: ""
-category: elasticsearch
-tags: [elasticsearch]
+tags:
+    - Elasticsearch
 ---
 
 

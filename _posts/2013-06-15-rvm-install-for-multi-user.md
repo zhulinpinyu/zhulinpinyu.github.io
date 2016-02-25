@@ -3,7 +3,7 @@ layout: post
 title: "RVM install for Multi User"
 description: ""
 category: ruby
-tags: [ruby]
+tags: [Ruby]
 ---
 
 

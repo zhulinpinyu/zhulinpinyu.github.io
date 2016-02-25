@@ -3,7 +3,7 @@ layout: post
 title: "用javascript阐述MapReduce原理"
 description: ""
 category: 算法
-tags: [javascript, 算法]
+tags: [Javascript, 算法]
 ---
 
 MapReduce理解  

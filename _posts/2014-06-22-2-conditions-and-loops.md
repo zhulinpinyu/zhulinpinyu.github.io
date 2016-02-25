@@ -3,7 +3,7 @@ layout: post
 title: "2. 控制结构 Conditions and Loops: Control Structures in Ruby"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

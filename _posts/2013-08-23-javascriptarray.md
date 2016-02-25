@@ -3,7 +3,7 @@ layout: post
 title: "javascript中Array对象的方法"
 description: ""
 category: javascript 
-tags: [javascript]
+tags: [Javascript]
 ---
 
 

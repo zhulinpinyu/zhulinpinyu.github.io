@@ -3,7 +3,7 @@ layout: post
 title: "ubuntu install xxx.deb file"
 description: ""
 category: ubuntu
-tags: [linux]
+tags: [Linux]
 ---
 
 

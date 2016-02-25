@@ -3,7 +3,7 @@ layout: post
 title: "0.1 更多的对象和method"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

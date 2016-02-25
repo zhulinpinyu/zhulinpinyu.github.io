@@ -3,7 +3,7 @@ layout: post
 title: "完美解决ubuntu下sublime text 2 中文无法输入"
 description: ""
 category: ubuntu
-tags: [linux,sublime-text]
+tags: [Linux,Sublime-text]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "ruby中的module"
 description: ""
 category: ruby
-tags: [ruby]
+tags: [Ruby]
 ---
 
 

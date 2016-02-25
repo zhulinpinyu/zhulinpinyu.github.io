@@ -3,7 +3,7 @@ layout: post
 title: "rubymotion 运行指定的模拟器"
 description: ""
 category: rubymotion
-tags: [osx,rubymotion,rubymotion tips]
+tags: [OSX,Rubymotion,Rubymotion Tips]
 ---
 
 

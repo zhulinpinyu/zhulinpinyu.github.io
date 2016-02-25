@@ -2,8 +2,8 @@
 layout: post
 title: "Ubuntu Server System Monitor Tool"
 description: ""
-category: ubuntu
-tags: [linux]
+tags:
+    - Linux
 ---
 
 

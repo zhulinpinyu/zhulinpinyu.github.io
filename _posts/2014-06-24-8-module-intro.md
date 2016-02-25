@@ -3,7 +3,7 @@ layout: post
 title: "8. module intro"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

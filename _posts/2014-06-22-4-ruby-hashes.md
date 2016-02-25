@@ -3,7 +3,7 @@ layout: post
 title: "4. ruby hashes"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

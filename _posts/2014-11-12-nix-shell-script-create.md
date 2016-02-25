@@ -3,7 +3,7 @@ layout: post
 title: "Shell 脚本编写"
 description: ""
 category: ubuntu
-tags: [linux,osx,shell]
+tags: [Linux,OSX,Shell]
 ---
 
 

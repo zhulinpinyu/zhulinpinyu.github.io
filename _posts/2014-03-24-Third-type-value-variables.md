@@ -3,7 +3,7 @@ layout: post
 title: "第三章：类型、值、变量"
 description: ""
 category: javascript权威指南(第六版)学习笔记
-tags: [javascript]
+tags: [Javascript]
 ---
 
 

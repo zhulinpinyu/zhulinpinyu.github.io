@@ -3,7 +3,7 @@ layout: post
 title: "5. Class and 面向对象的ruby"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

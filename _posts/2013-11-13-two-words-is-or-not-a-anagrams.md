@@ -3,7 +3,7 @@ layout: post
 title: "写一个函数判断两个字符串是否是变位词（java实现）"
 description: ""
 category: Cracking the coding interview
-tags: [java]
+tags: [Java]
 ---
 
 

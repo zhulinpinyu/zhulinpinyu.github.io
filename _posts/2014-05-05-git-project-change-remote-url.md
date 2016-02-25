@@ -3,7 +3,7 @@ layout: post
 title: "Git project change remote url"
 description: ""
 category: git
-tags: [git,github]
+tags: [Git,Github]
 ---
 
 

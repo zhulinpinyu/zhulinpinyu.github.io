@@ -3,7 +3,7 @@ layout: post
 title: "10. RubyMonk Primer 习题知识点汇总"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

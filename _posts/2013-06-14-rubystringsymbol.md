@@ -3,7 +3,7 @@ layout: post
 title: "ruby中String和Symbol的区别"
 description: ""
 category: ruby
-tags: [ruby]
+tags: [Ruby]
 ---
 
 

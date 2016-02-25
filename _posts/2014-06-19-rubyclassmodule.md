@@ -3,7 +3,7 @@ layout: post
 title: "ruby的class与module的区别"
 description: ""
 category: ruby
-tags: [ruby]
+tags: [Ruby]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "修改文件或文件夹所属的用户"
 description: ""
 category: ubuntu
-tags: [linux,osx]
+tags: [Linux,OSX]
 ---
 
 

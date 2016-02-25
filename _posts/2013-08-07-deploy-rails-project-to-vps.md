@@ -3,7 +3,7 @@ layout: post
 title: "Deploy Rails project to VPS服务器环境搭建篇"
 description: ""
 category: Ubuntu
-tags: [deploy,rails]
+tags: [Deploy,Rails]
 ---
 
 

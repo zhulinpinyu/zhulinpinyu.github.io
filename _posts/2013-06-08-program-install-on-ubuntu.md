@@ -3,7 +3,7 @@ layout: post
 title: "简易方式program install on Ubuntu"
 description: ""
 category: ubuntu
-tags: [linux]
+tags: [Linux]
 ---
 
 ####java install

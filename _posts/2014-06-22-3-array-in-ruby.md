@@ -3,7 +3,7 @@ layout: post
 title: "3. Array ruby数组"
 description: ""
 category: ruby
-tags: [ruby,rubymonk]
+tags: [Ruby,Rubymonk]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "OSX Sublime text 3 install Ctags"
 description: ""
 category: ubuntu
-tags: [linux,sublime-text,ctag]
+tags: [Linux,Sublime-text,Ctag]
 ---
 
 

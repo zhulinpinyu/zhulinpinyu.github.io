@@ -2,8 +2,11 @@
 layout: post
 title: "OSX use Fig/Docker development Rails project"
 description: ""
-category: docker
-tags: [docker,osx,fig,rails]
+tags:
+    - Docker
+    - OSX
+    - Fig
+    - Rails
 ---
 
 

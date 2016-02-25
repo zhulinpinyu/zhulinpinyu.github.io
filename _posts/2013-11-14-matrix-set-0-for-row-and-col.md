@@ -3,7 +3,7 @@ layout: post
 title: "处理一个MxN的矩阵，若矩阵中某个元素为0，则把它所在的行和列都置为0.（Java实现）"
 description: ""
 category: Cracking the coding interview
-tags: [java]
+tags: [Java]
 ---
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "mongoDB 学习笔记"
 description: ""
 category: mongodb
-tags: [mongodb,database]
+tags: [Mongodb,Database]
 ---
 
 

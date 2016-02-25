@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu下Ruby on Rails开发环境的安装"
 description: ""
 category: rails
-tags: [linux, ruby, rails]
+tags: [Linux, Ruby, Rails]
 ---
 
 

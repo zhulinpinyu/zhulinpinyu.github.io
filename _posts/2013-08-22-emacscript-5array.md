@@ -3,7 +3,7 @@ layout: post
 title: "EMACScript 5中Array对象新增的方法"
 description: ""
 category: javascript
-tags: [javascript]
+tags: [Javascript]
 ---
 
 

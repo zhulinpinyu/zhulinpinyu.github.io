@@ -3,7 +3,7 @@ layout: post
 title: "linux 远程拷贝"
 description: ""
 category: ubuntu
-tags: [linux]
+tags: [Linux]
 ---
 
 

@@ -2,8 +2,11 @@
 layout: post
 title: "Foreman with unicorn 在rails开发中的使用"
 description: ""
-category: rails
-tags: [rails,docker,unicorn,foreman]
+tags:
+    - Rails
+    - Docker
+    - Unicorn
+    - Foreman
 ---
 
 

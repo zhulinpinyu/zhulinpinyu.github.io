@@ -3,7 +3,7 @@ layout: post
 title: "spree install guides"
 description: ""
 category: rails
-tags: [rails]
+tags: [Rails]
 ---
 
 

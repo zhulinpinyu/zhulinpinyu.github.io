@@ -3,7 +3,7 @@ layout: post
 title: "javascript立即调用 IIFE"
 description: ""
 category: javascript
-tags: [javascript]
+tags: [Javascript]
 ---
 
 

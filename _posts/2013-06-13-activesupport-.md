@@ -3,7 +3,7 @@ layout: post
 title: "activesupport 学习笔记"
 description: ""
 category: ruby
-tags: [ruby]
+tags: [Ruby]
 ---
 
 
