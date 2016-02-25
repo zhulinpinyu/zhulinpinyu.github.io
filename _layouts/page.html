@@ -110,6 +110,26 @@ layout: default
                         {% endif %}
                         <!-- SNS Link -->
                         <ul class="list-inline">
+                            {% if site.github_username %}
+                            <li>
+                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {% if site.linkedin_username %}
+                            <li>
+                                <a target="_blank" href="http://www.linkedin.com/in/{{ site.linkedin_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
                             {% if site.RSS %}
                             <li>
                                 <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -160,16 +180,6 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            {% if site.github_username %}
-                            <li>
-                                <a target="_blank" href="https://github.com/{{ site.github_username }}">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            {% endif %}
                         </ul>
                     </div>
                 </section>
@@ -179,7 +189,7 @@ layout: default
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                        <li><a href="{{friend.href}}" target="_blank">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
