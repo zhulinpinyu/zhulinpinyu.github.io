@@ -6,7 +6,9 @@ date:       2015-10-17
 author:     "zhulinpinyu"
 header-img: "img/in-post/2015-10-27-load-balance.png"
 tags:
-    - Javascript
+    - Rails
+    - Docker
+    - Nginx
 ---
 
 ## 用nginx和rails配置负载均衡
