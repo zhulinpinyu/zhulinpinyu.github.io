@@ -2,7 +2,7 @@
 layout:     post
 title:      "JavaScript Array Methods 深入学习"
 subtitle:   "JavaScript Array 常用 Methods小结。"
-date:       2016-02-25 13:27
+date:       2016-02-25
 author:     "zhulinpinyu"
 header-img: "img/in-post/16-02-25-javascript-array-in-deeps.jpg"
 tags:
