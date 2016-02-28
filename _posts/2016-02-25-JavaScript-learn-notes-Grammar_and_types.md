@@ -108,6 +108,31 @@ list.length; //4
 
 当然自己编写代码显式声明缺失的元素为undefined，将增加代码的可维护性。
 
+### 布尔值
+
+下列值将被计算成false:
+
+- false
+- undefined
+- null
+- 0
+- NaN
+- 空字符串("")
+
+当传递给条件语句时，所有其他值，包括所有对象会被计算为true.
+
+**不要混淆原始的布尔值true和false 与 布尔对象值true和false**
+
+```javascript
+var b = new Boolean(false);
+if(b) // b将被计算为true,因为b是布尔对象。
+```
+
+
+
 
 参考：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types)
+
+
+[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 
