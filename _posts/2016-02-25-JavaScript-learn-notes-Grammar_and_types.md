@@ -128,11 +128,13 @@ var b = new Boolean(false);
 if(b) // b将被计算为true,因为b是布尔对象。
 ```
 
+### break和continue
 
+- break的作用是跳出循环体
+- continue的作用是跳出循环中的一次迭代
 
 
 参考：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types)
 
 
 [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
-
