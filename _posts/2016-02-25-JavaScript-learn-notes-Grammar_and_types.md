@@ -136,5 +136,4 @@ if(b) // b将被计算为true,因为b是布尔对象。
 
 参考：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_types)
 
-
 [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
