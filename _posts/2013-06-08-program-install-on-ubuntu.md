@@ -6,23 +6,24 @@ category: ubuntu
 tags: [Linux]
 ---
 
-####java install
+#### java install
     $ sudo add-apt-repository -y ppa:webupd8team/java
     $ sudo apt-get update
     $ sudo apt-get install -y oracle-jdk7-installer
-####redis install
+
+#### redis install
     $ sudo add-apt-repository ppa:chris-lea/redis-server
     $ sudo apt-get -y update
     $ sudo apt-get  install -y redis-server
-####nodejs install
+
+#### nodejs install
     $ sudo add-apt-repository ppa:chris-lea/node.js
     $ sudo apt-get -y update
     $ sudo apt-get -y install nodejs
-####MongoDB install
+
+#### MongoDB install
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
-    
-`echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list`
-    
+    `echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list`
     sudo apt-get update
     sudo apt-get install mongodb-10gen
     
