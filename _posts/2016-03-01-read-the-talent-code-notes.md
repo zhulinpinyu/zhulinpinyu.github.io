@@ -4,6 +4,7 @@ title:      "读《一万小时天才理论》"
 subtitle:   "《一万小时天才理论》读书体会"
 date:       2016-03-1
 author:     "zhulinpinyu"
+header-img: 
 tags:
     - 阅读
 ---
@@ -11,7 +12,7 @@ tags:
 
 > 回想起上次深夜里写东西已经是很久以前的事情了。动笔前想起了高中时代的生活。作文，八百字的作文。已经好多年没有认真写过八百字的东西了。今天就借着写这篇读书笔记的机会来尝试一下自己还能不能写下来。
 
-> ![/img/in-post/2016-03-01-the-talent-code.jpg](/img/in-post/2016-03-01-the-talent-code.jpg)
+![/img/in-post/2016-03-01-the-talent-code.jpg](/img/in-post/2016-03-01-the-talent-code.jpg)
 
 ​好回到正题，从这本书的名字说起：《一万小时天才理论》，原书的题目是《The Talent Code》,直译应该是《天才的密码》，或许这也是个不错的译名。本书概括起来也就是作者开篇提到的三大观点：
 
