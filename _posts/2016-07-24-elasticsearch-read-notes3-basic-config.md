@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "《Elasticsearch in Action》阅读笔记基础配置概览篇"
+title:      "《Elasticsearch in Action》阅读笔记三：基础配置概览篇"
 subtitle:   ""
 date:       2016-07-24
 author:     "zhulinpinyu"

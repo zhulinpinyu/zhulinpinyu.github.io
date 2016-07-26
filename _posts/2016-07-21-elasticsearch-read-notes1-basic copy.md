@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "《Elasticsearch in Action》阅读笔记基础概念篇"
+title:      "《Elasticsearch in Action》阅读笔记一：基础概念篇"
 subtitle:   ""
 date:       2016-07-21
 author:     "zhulinpinyu"
