@@ -6,8 +6,7 @@ date:       2016-03-31
 author:     "zhulinpinyu"
 header-img:
 tags:
-    - Nodejs
-    - NPM
+    - Postgresql
 ---
 
 ## Postgresql Basic Usage Notes
