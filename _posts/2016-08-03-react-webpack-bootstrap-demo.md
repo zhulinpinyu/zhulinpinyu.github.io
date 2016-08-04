@@ -105,6 +105,30 @@ npm run deploy
 
 visit: [https://zhulinpinyu.github.io/WebpackReactBootstrapDemo/](https://zhulinpinyu.github.io/WebpackReactBootstrapDemo/)
 
+---
+
+更新 2016-08-04
+
+---
+
+## 使html的class属性生效代替className
+
+添加插件：
+
+    npm install --save-dev babel-plugin-react-html-attrs
+    
+
+更新配置：
+
+[config/babel.dev.js]() 和 [config/babel.prod.js]()中在plugins下添加
+
+    'babel-plugin-react-html-attrs'
+
+
+修改文件将部分className修改为class依然正常工作。
+
+---
+
 Github Repo: [https://github.com/zhulinpinyu/WebpackReactBootstrapDemo](https://github.com/zhulinpinyu/WebpackReactBootstrapDemo)
 
 参考：    
