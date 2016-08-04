@@ -120,7 +120,7 @@ visit: [https://zhulinpinyu.github.io/WebpackReactBootstrapDemo/](https://zhulin
 
 更新配置：
 
-[config/babel.dev.js]() 和 [config/babel.prod.js]()中在plugins下添加
+[config/babel.dev.js](https://github.com/zhulinpinyu/WebpackReactBootstrapDemo/blob/master/config/babel.dev.js) 和 [config/babel.prod.js](https://github.com/zhulinpinyu/WebpackReactBootstrapDemo/blob/master/config/babel.prod.js)中在plugins下添加
 
     'babel-plugin-react-html-attrs'
 
