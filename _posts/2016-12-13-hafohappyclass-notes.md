@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "哈佛幸福课（得到解读版）书摘"
+title:      "《哈佛幸福课》（得到解读版）书摘"
 subtitle:   ""
 date:       2016-12-13
 author:     "zhulinpinyu"
