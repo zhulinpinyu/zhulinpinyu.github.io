@@ -9,7 +9,7 @@ tags:
     - Elixir
 ---
 
-#### 创建Elixir项目
+### 创建Elixir项目
 
 ```elixir
 mix new PROJECT_NAME
@@ -68,14 +68,14 @@ mix xref              # Performs cross reference checks
 iex -S mix            # Starts IEx and runs the default task
 ```
 
-#### Elixir 运行当前Project中的code
+### Elixir 运行当前Project中的code
 
 ```bash
 iex -S mix
 ```
 
 
-#### Elixir 安装依赖库
+### Elixir 安装依赖库
 
 在文件`mix.exs`中添加
 
@@ -91,4 +91,17 @@ end
 
 ```bash
 mix deps.get
+```
+
+### 多个环境
+和 Bundler 很相似，mix 也支持不同的环境。默认情况下，mix 支持三种环境：
+
+- `:dev` — 默认的环境
+- `:test` — `mix test` 使用的环境
+- `:prod` — 把应用上线会用到的环境
+
+可以从 `Mix.env` 变量中获取当前的环境，而且环境也可以通过 `MIX_ENV` 环境变量来配置：
+
+```bash
+MIX_ENV=prod mix compile
 ```
