@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Elixir 函数"
+title:      "Elixir 函数概览"
 subtitle:   ""
 date:       2016-12-19
 author:     "zhulinpinyu"

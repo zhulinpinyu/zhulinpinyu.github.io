@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Elixir 控制语句 "
+title:      "Elixir 控制语句概览"
 subtitle:   ""
 date:       2016-12-19
 author:     "zhulinpinyu"
