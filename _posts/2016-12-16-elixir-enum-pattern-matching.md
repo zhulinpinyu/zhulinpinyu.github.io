@@ -46,7 +46,7 @@ Enum.chunk_by(["one","three","four","five","six"], fn(x) -> String.length(x) end
 
 Thanks: http://elixirschool.com/cn/lessons/basics/pattern-matching/
 
-**有变量赋值的匹配中：**能匹配则变量赋值，不能匹配则报错
+**有变量赋值的匹配中：**能匹配则变量绑定新值，不能匹配则报错
 
 List、Map示例：
 
