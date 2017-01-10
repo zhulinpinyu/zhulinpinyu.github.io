@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Modules and Named Functions 学习摘要（3）"
+title:      "Modules and Named Functions 学习摘要(3)"
 subtitle:   "《Programming Elixir 1.3》p47-63"
 date:       2017-01-09
 author:     "zhulinpinyu"
