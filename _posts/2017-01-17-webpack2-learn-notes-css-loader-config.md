@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Webpack 2 学习笔记(三): css 文件打包规则的配置使用"
+title:      "Webpack2 学习笔记(三): css 文件打包规则的配置使用"
 subtitle:   ""
-date:       2017-01-16
+date:       2017-01-17
 author:     "zhulinpinyu"
 header-img:
 tags:
