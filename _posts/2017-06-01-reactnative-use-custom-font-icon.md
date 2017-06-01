@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "React Native 使用自定义的font icon"
+title:      "React Native 使用自定义的Font Icon"
 subtitle:   ""
 date:       2017-06-01
 author:     "zhulinpinyu"
