@@ -27,7 +27,7 @@ permalink: pretty
 paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 
 
 # Markdown settings
@@ -42,12 +42,6 @@ kramdown:
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-duoshuo_username: zhulinpinyu
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
 
 
 
