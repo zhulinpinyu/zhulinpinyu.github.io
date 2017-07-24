@@ -9,6 +9,8 @@ tags:
     - Elixir
 ---
 
+updated: 2016-12-19, 2017-07-24
+
 Thanks: [http://elixirschool.com/cn/lessons/basics/modules/](http://elixirschool.com/cn/lessons/basics/modules/)
 
 ### 模块（Module）的属性
@@ -56,3 +58,28 @@ n #"Sean"
 ```
 
 **个人理解：Struct就是一种特定类型(或者自定义类型)的Map.**
+
+Struct 是map,可以使用map 的工具函数，反之map可不一定是Struct。
+
+Struct的更新：可以使用map相同的更新方式
+
+```elixir
+def route(%Conv{ method: "GET", path: "/wildthings" } = conv) do
+  %{ conv | status: 200, resp_body: "Bears, Lions, Tigers" }
+end
+```
+
+需要注意的是：Struct 更新以后还是Struct.为明确更新结果还是Struct。
+
+```elixir
+%Conv{ conv | status: 200, resp_body: "Bears, Lions, Tigers" }
+```
+
+最后Map是不能更新成Struct。
+
+```elixir
+iex> map = %{method: "GET", path: "/wildthings"}
+
+> %Servy.Conv{ map | status: 200, resp_body: "Bears, Lions, Tigers" }
+** (BadStructError) expected a struct named Servy.Conv, got: %{method: "GET", path: "/wildthings"}
+```
