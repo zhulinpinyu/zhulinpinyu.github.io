@@ -2,7 +2,7 @@
 layout:     post
 title:      "Control Flow 学习摘要(8)"
 subtitle:   "《Programming Elixir 1.3》p129-136"
-date:       2017-08-06
+date:       2017-08-07
 author:     "zhulinpinyu"
 header-img: "img/in-post/elixir-bg.png"
 tags:
