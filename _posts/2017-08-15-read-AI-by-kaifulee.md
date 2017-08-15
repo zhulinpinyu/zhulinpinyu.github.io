@@ -11,6 +11,10 @@ tags:
 
 ![/img/in-post/2017-08-15-AI.jpg](/img/in-post/2017-08-15-AI.jpg)
 
+![/img/in-post/2017-08-15-AI-2.png](/img/in-post/2017-08-15-AI-2.png)
+
+[人工智能-20170815.mindnode](/img/attachments/人工智能-20170815.mindnode)
+
 ### 等级划分
 
 #### 弱人工智能
