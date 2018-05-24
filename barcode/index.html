@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Barcode</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+
+    function init() {
+      const barcodes = [
+        "12345678",
+        "22345678",
+        "32345678",
+        "42345678",
+        "52345678"
+      ]
+
+      document.body.innerHTML = barcodes.map(
+        barcode => "<svg class='barcode' jsbarcode-value="+barcode+"></svg>"
+      ).join("")
+      
+      JsBarcode(".barcode").init()
+    }
+
+  </script>
+</head>
+
+<body onload="init()">
+  <script src='js/JsBarcode.code128.min.js'></script>
+</body>
+</html>
