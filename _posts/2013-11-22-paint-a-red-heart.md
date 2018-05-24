@@ -42,7 +42,7 @@ tags: [CSS3]
   }
 </style>
 
-{% highlight css %}
+```css
 #heart{
     position: relative;
     width: 300px;
@@ -70,4 +70,4 @@ tags: [CSS3]
     -webkit-transform-origin: 100% 100%;
     -moz-transform-origin: 100% 100%;
   }
-{% endhighlight %}
+```css

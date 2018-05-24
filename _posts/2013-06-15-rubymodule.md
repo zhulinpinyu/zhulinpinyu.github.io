@@ -10,7 +10,7 @@ tags: [Ruby]
 ####Modules
 
 image_utils.rb
-{% highlight ruby %}
+```ruby
 module ImageUtils
     def preview
         puts "preview"
@@ -19,7 +19,7 @@ module ImageUtils
         puts "transfer #{url}" 
     end
 end
-{% endhighlight %}
+```
 ___
 
 image.rb (关键字 `include`)

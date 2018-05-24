@@ -28,15 +28,16 @@ tags: [Java]
     1   2   3   4   5   6
 
 ####算法实现
-{% highlight java%}
+```java
 private void matrixConversion(int[][] matrix){
     List<int[]> zeroPosList = new ArrayList<int[]>();
     saveZeroPos(matrix, zeroPosList);
     setZero(matrix, zeroPosList);
 }
-{% endhighlight %}
+```
+
 `保存零值位置`
-{% highlight java%}
+```java
 private void saveZeroPos(int[][] matrix, List<int[]> zeroPosList) {
     int M = matrix.length;
     int N = matrix[0].length;
@@ -49,15 +50,19 @@ private void saveZeroPos(int[][] matrix, List<int[]> zeroPosList) {
         }
     }
 }
-{% endhighlight %}    
+```
+
 `判断零值`
-{% highlight java %}
+
+```java
 private static boolean isZero(int[][] matrix,int i, int j) {
     return matrix[i][j] == 0;
 }
-{% endhighlight %}
+```
+
 `置零`
-{% highlight java %}
+
+```java
 private static void setZero(int[][] matrix, List<int[]> zeroPos) {
     for(int[] pos : zeroPos){
         int i = pos[0];
@@ -72,4 +77,4 @@ private static void setZero(int[][] matrix, List<int[]> zeroPos) {
         }
     }
 }
-{% endhighlight %}
+```

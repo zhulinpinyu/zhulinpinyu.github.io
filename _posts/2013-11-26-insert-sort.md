@@ -14,7 +14,7 @@ tags: [Java,算法]
     插入排序是在部分数据有序的情况下，使用i标记第一个无序的数据，将其提取保存到一个中间变量temp中去，使用j标记空位置，依次比较temp中的值与j中的值，如果j中的值大于temp的值，则后移，直到遇到第一个比temp小的值，在其下一个位置插入
 
 ####算法实现
-{% highlight java %}    
+```java
     public static void insertSort(int[] array){
             //从小到大的顺序排
         for(int i=1; i<array.length; i++){
@@ -27,4 +27,4 @@ tags: [Java,算法]
           array[j+1] = temp;
         }
     }
-{% endhighlight %}
+```
