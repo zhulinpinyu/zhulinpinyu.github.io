@@ -11,12 +11,12 @@
       const ms = moment.duration(moment().diff(moment('20091210'))).asMonths()
 
       const r1 = moment.preciseDiff(moment('20091210'), moment(), true)
-      document.getElementById("meet").innerHTML = `遇见：${r1.years}年 ${r1.months}月 ${r1.days}天| ${Math.floor(ds)}天 | ${Math.floor(ms)}月 ${r1.days}天`
+      document.getElementById("meet").innerHTML = `<h2>遇见：${r1.years}年 ${r1.months}月 ${r1.days}天| ${Math.floor(ds)}天 | ${Math.floor(ms)}月 ${r1.days}天</h2>`
       const r2 = moment.preciseDiff(moment('20180106'), moment(), true)
       const r3 = moment.preciseDiff(moment('20180315'), moment(), true)
       const jds = moment.duration(moment().diff(moment('20180106'))).asDays()
       const jds1 = moment.duration(moment().diff(moment('20180315'))).asDays()
-      document.getElementById("into_life").innerHTML = `降临：${r2.years}年 ${r2.months}月 ${r2.days}天（${Math.floor(jds)}天）| ${r3.years}年 ${r3.months}月 ${r3.days}天（${Math.floor(jds1)}天）`
+      document.getElementById("into_life").innerHTML = `<h2>降临：${r2.years}年 ${r2.months}月 ${r2.days}天（${Math.floor(jds)}天）| ${r3.years}年 ${r3.months}月 ${r3.days}天（${Math.floor(jds1)}天）</h2>`
     }
   </script>
 </head>
