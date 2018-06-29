@@ -21,7 +21,7 @@
       document.body.innerHTML = barcodes.map(
         barcode => "<svg class='barcode' jsbarcode-value="+barcode+"></svg>"
       ).join("")
-      
+
       JsBarcode(".barcode").init()
     }
 
@@ -29,7 +29,6 @@
 </head>
 
 <body onload="init()">
-  <h2>单个Tote: 27232</h2>
   <script src='js/JsBarcode.code128.min.js'></script>
 </body>
 </html>
