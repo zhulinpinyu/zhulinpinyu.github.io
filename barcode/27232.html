@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Barcode</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+
+    function init() {
+      const barcodes = [
+        "01415273",
+        "01676036",
+        "01722722",
+        "01379940",
+        "A260619",
+        "A26105"
+      ]
+
+      document.body.innerHTML = barcodes.map(
+        barcode => "<svg class='barcode' jsbarcode-value="+barcode+"></svg>"
+      ).join("")
+      
+      JsBarcode(".barcode").init()
+    }
+
+  </script>
+</head>
+
+<body onload="init()">
+  <h2>单个Tote: 27232</h2>
+  <script src='js/JsBarcode.code128.min.js'></script>
+</body>
+</html>
