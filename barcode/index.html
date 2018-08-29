@@ -8,26 +8,25 @@
 
   <script>
 
-    function init() {
-      const barcodes = [
-        "01387095",
-        "01405190",
-        "01414673",
-        "A12776",
-        "A134019"
-      ]
+    function generate() {
+      const input = document.getElementById("input").value
+      if(input.trim() == "") return document.getElementById("output").innerHTML = "请收入条码"
+      const barcodes = input.split("\n")
 
-      document.body.innerHTML = barcodes.map(
+      document.getElementById("output").innerHTML = barcodes.map(
         barcode => "<svg class='barcode' jsbarcode-value="+barcode+"></svg>"
       ).join("")
-      
       JsBarcode(".barcode").init()
     }
-
   </script>
 </head>
 
-<body onload="init()">
+<body>
+  <div class="input-area">
+    <textarea id="input" cols="30" rows="20"></textarea>
+    <button onclick="generate()">Generate</button>
+  </div>
+  <div id="output"></div>
   <script src='js/JsBarcode.code128.min.js'></script>
 </body>
 </html>
